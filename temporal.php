@@ -1,11 +1,3 @@
-if($existe>0) {
-             echo 'Registro existente, intente nuevamente.';
-        } else {
-		   $result = mysqli_query($mysqli, "INSERT INTO tb_divisas(abrev,descripcion) VALUES('$abrev','$descripcion')");
-           echo  "Registro agregado satisfactoriamente.";
-        }	
-
-
 <!doctype html>
 <html lang="en">
   <head>
