@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> ca40d917657339d480b3e5fa83b32676c03dac4a
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
