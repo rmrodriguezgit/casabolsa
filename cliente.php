@@ -52,7 +52,7 @@ while($res = mysqli_fetch_array($result))
                              echo ' <td>'.$email.'</td>';
                              echo ' <td>'.$rfc.'</td>';
                              echo ' <td>'.$ine.'</td>';
-                             echo "<td><a href=\"clientes.php?id_cliente=$res[id_cliente]\">Edit</a> | <a href=\"deletecliente.php?id_cliente=$res[id_cliente]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a></td>";
+                             echo "<td><a class='btn btn-primary' href=\"clientes.php?id_cliente=$res[id_cliente]\">Edit</a>  <a class='btn btn-danger' href=\"deletecliente.php?id_cliente=$res[id_cliente]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a></td>";
                              echo '</tr>';
                      ?>
                  </tbody>
