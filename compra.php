@@ -62,7 +62,7 @@ if(empty($cantidad) || empty($abrev) || empty($id_cliente)  ) {
         echo "<div class='alert alert-success' role='alert'>";
         echo "Compra registrada <br/>";
         echo "Cliente ID:".$id_cliente."<br/>";
-        echo $abrev." ".$res[0]." * ".$valor." = $".$res[1]." MNX";
+        echo $abrev." ".$res[0]." * ".$cantidad." = $".$res[1]." MNX";
         echo "</div>";
         echo "</div>";
         echo "</div>";
